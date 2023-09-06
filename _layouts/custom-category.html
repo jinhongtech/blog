@@ -1,0 +1,21 @@
+---
+layout: archive
+---
+
+
+<h3 class="archive__subtitle">{{ page.category_title }}</h3>
+
+{% assign posts = site.categories[page.category_value] %}
+
+<div class="entries-{{ entries_layout }}">
+{% for post in posts %} 
+
+    <!--
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    -->
+    
+    {% include archive-single.html type=page.entries_layout %} 
+{% endfor %}
+</div>

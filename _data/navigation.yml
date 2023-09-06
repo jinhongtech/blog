@@ -1,0 +1,29 @@
+# main links
+main:
+  - title: "Tags"
+    url:
+  - title: "Portfolio"
+    url: /portfolio
+  - title: "Search"
+    url: /search/
+
+
+sides:
+  - title: "Computer Science"
+    children:
+      - title: "컴퓨터 구조"
+        url: /computerarchitecture/
+      - title: "네트워크"
+        url: /network/
+      - title: "자료구조 알고리즘"
+        url:
+      - title: "운영체제"
+        url:
+  
+  - title: "Programming"
+    children:
+      - title: "C언어"
+        url: 
+      - title: "python"
+        url:
+
